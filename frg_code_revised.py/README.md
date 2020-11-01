@@ -65,7 +65,7 @@ The non-interacting part of the AAH model, the Hamiltonian contains the modulati
 
 The total system sites is given by N,  
 the number of the sublattices is Z,  
-the hopping parameter is set t=1 by default,  
+the hopping parameter is t=1 by default,  
 the modulation of the hopping and the onsite potential is DT and V,  
 the phase of the hopping and the onsite potential is PHI_T and PHI_V, PHI_T=PHI_V=0.0 by default,  
 rhe chemical potential is given by MU, and  
