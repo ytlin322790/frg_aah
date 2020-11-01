@@ -1,14 +1,16 @@
 from numpy import pi
 
 # system size
-L=4000#1000
+L=4000
 N=L
 TARGET=3000.0
+
 # number of sublattice
 Z=4
 
 # onsite potential
 V=0.015
+
 # hopping parameters
 DT=0.02
 
