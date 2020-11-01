@@ -4,6 +4,7 @@ from numpy import pi
 L=4000
 N=L
 TARGET=1000.0
+
 # number of sublattice
 Z=4
 
