@@ -2,8 +2,8 @@
   <a href="#about">About</a> ◈
   <a href="#prerequisites">Prerequisites</a> ◈
   <a href="#Getting-started">Getting-started</a> ◈
-  <a href="#Local-density-(Green-function-approach)">Local Density (Green function approach)</a> ◈
-  <a href="#Local-density-(vertex-flow-approach)">Local density (vertex flow approach)</a> 
+  <a href="#Local-Density-with-Green-function-approach">Local Density with Green function approach</a> ◈
+  <a href="#Local-Density-with-Vertex-flow-approach">Local Density with Vertex flow approach</a> 
 </p>
 
 ---
@@ -93,10 +93,7 @@ print(frg_self_energy)
 ```
 
 
-
-
-
-## Local Density (Green function approach)
+## Local Density with Green function approach
 
 After implementing the part of the fRG self-energy, one can obtain the local density (total particle density) in all system by integrating the green function over Mutsubara frequency.
 
@@ -111,7 +108,7 @@ print(rho)
 ```
 
 
-## Local Density (vertex flow approach)
+## Local Density with Vertex flow approach
 
 In order to ontain the more accurate and self-consistent result in functional RG formalism, one need to include the flow of density respond vertex. Note that this method is different from the Green function approach, one only obtain result in single position j in the end of the flow, for example, 
 ```py
