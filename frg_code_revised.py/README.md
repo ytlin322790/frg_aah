@@ -3,7 +3,8 @@
   <a href="#prerequisites">Prerequisites</a> ◈
   <a href="#Getting-started">Getting-started</a> ◈
   <a href="#Local-Density-with-Green-function-approach">Local Density with Green function approach</a> ◈
-  <a href="#Local-Density-with-Vertex-flow-approach">Local Density with Vertex flow approach</a> 
+  <a href="#Local-Density-with-Vertex-flow-approach">Local Density with Vertex flow approach</a> ◈
+  <a href="#Refenerce">Reference</a>
 </p>
 
 ---
@@ -139,5 +140,16 @@ print(rho_vertex)
 ```
 
 
+## Refenerce
 
+We use these code to produce the data in the following papers
+
+1. Y.-T. Lin, C. S. Weber, D. M. Kennes, M. Pletyukhov, H. Schoeller, and V. Meden: “Bulk, Boundaries, and interactions in gapped one-dimensional Fermi systems” in preparation.   
+2. Y.-T. Lin, D. M. Kennes, M. Pletyukhov, C. S. Weber, H. Schoeller, and V. Meden: “Interacting Rice-Mele model: Bulk and boundaries” Phys. Rev. B 102, 085122 (2020).
+
+
+More general review about the function renormalization gruop can be found in 
+
+3. W. Metzner, M. Salmhofer, C. Honerkamp, V. Meden, and K. Schoehammer,
+  Rev. Mod. Phys. 84, 299 (2012)
 
