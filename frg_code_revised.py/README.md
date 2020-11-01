@@ -2,8 +2,8 @@
   <a href="#about">About</a> ◈
   <a href="#prerequisites">Prerequisites</a> ◈
   <a href="#Getting-started">Getting-started</a> ◈
-  <a href="#Local-density-(Green function approach)">Local density (Green function approach)</a> ◈
-  <a href="#Local-density-(vertex flow approach)">Local density (vertex flow approach)</a> 
+  <a href="#Local-density-(Green-function-approach)">Local Density (Green function approach)</a> ◈
+  <a href="#Local-density-(vertex-flow-approach)">Local density (vertex flow approach)</a> 
 </p>
 
 ---
