@@ -1,7 +1,7 @@
 from numpy import pi
 
 # system size
-L=4000#1000
+L=4000
 N=L
 TARGET=1000.0
 # number of sublattice
