@@ -62,7 +62,7 @@ To download numba,  do the following:
 pip install numba
 ```
 
-More detail about the numba can be found in the website 'https://numba.pydata.org'.
+More detail about the numba, one can visit the website 'https://numba.pydata.org'.
 ## Getting-started
 
 The essential object in the fRG formalism is the FRG one-particle irreducible (1PI) vertex.
