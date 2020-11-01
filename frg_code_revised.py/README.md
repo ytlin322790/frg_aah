@@ -1,9 +1,9 @@
 <p align="center">
   <a href="#about">About</a> ◈
   <a href="#prerequisites">Prerequisites</a> ◈
-  <a href="#getting-started">getting-started</a> ◈
-  <a href="#local-density-(Green function approach)">local density (Green function approach)</a> ◈
-  <a href="#local-density-(vertex flow approach)">local density (vertex flow approach)</a> ◈
+  <a href="#Getting-started">Getting-started</a> ◈
+  <a href="#Local-density-(Green function approach)">Local density (Green function approach)</a> ◈
+  <a href="#Local-density-(vertex flow approach)">Local density (vertex flow approach)</a> 
 </p>
 
 ---
@@ -19,7 +19,7 @@ This is the functional renormalization group (fRG) numerical solver on 1d spinle
 
 The models which can be studied by this framework are given as:
 
-* spinless fermion model.
+* spinless fermion model 
 * interacting Su-Schrieffer-Heeger (SSH) model and Rice-Mele (RM) model. 
 * generalized Aubry-Andr\'e-Harper (AAH) model with Z periodicity. 
 * modulated interaction model with Z periodicity. 
@@ -55,7 +55,7 @@ pip install numba
 ```
 
 More detail of the numpy module can be found in the wedsite 'https://numba.pydata.org'.
-## getting-started
+## Getting-started
 
 The essential object in the fRG formalism is the FRG one-particle irreducible (1PI) vertex.
 We use the generalized Aubry-Andr\'e-Harper (AAH) model with Z periodicity as a targeted model for the following explanation.  
@@ -63,12 +63,12 @@ One can use the data of 1PI vertex to calculate the observable such as single pa
 
 The non-interacting part of the AAH model, the Hamiltonian contains the modulation of on-site potentail and the hopping parameters. 
 
-The total system sites is given by N,  
-the number of the sublattices is Z,  
-the hopping parameter is set t=1 by default,  
-the modulation of the hopping and the onsite potential is DT and V,  
-the phase of the hopping and the onsite potential is PHI_T and PHI_V, PHI_T=PHI_V=0.0 by default,  
-the chemical potential is given by MU, and  
+The total system sites is given by N,
+the number of the sublattices is Z,
+the hopping parameter is set t=1 by default,
+the modulation of the hopping and the onsite potential is DT and V,
+the phase of the hopping and the onsite potential is PHI_T and PHI_V, PHI_T=PHI_V=0.0 by default,
+rhe chemical potential is given by MU, and
 the strength of the interaction is given by U.
 
 In order to obtain the real space functional RG data, one should 
