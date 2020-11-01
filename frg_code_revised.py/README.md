@@ -19,7 +19,7 @@ This is the functional renormalization group (fRG) numerical solver on 1d spinle
 
 The models which can be studied by this framework are given as:
 
-* spinless fermion model
+* spinless fermion model.
 * interacting Su-Schrieffer-Heeger (SSH) model and Rice-Mele (RM) model. 
 * generalized Aubry-Andr\'e-Harper (AAH) model with Z periodicity. 
 * modulated interaction model with Z periodicity. 
