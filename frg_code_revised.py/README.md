@@ -33,7 +33,7 @@ The data for the local spectrum function is obtained by the excat numerical diag
 
 The algorithm:
 
-We use the Runge-Kutta solvers of orders 4 and 5 (RK45) to implement the renormalization group equations which is a set of differential equations. 
+We use the Runge-Kutta solvers of orders 4 and 5 (RK45) to solve the renormalization group equations which is a set of differential equations. 
 Moreoever, we use scipy.integrate sub-package to solve ordinary differential equation integrator.
 Due to the for loop structure in the solver, we also add the Numba JIT compiler to speed up the process of implementing the for loop.
 
