@@ -29,7 +29,7 @@ The data for the local denisty is calculated in two method:
   1. Effecitve single particle method: The RG flow of 1PI vertex. fRG self-energy plus single particle green's function, and
   2. Many body method: The RG flow of 1PI vertex and the total particle density. 
 
-The data for the local spectrum function is obtained by the excat numcerical digonization of effective single particle hamiltonain with fRG self-energy.
+The data for the local spectrum function is obtained by the excat numerical diagonalization of effective single particle hamiltonain with fRG self-energy.
 
 The algorithm:
 
@@ -48,13 +48,21 @@ More detail can be found in Ref.['https://journals.aps.org/prb/abstract/10.1103/
 To implement this functional RG code, you need Python version 3.8 or 3.7, numpy, scipy and numba installed on your device.
 For the density with functional RG density respond vertex flow in large system size, one need to implement the numerics in the cluster.
 
-To download numba, do the following:
+To download numpy and scipy,
 
+```bash
+pip install numba
+pip install scipy
+```
+
+More detail of the numpy and scipy can be found in the wedsite 'https://numpy.org' and 'https://www.scipy.org'.
+
+To download numba,  do the following:
 ```bash
 pip install numba
 ```
 
-More detail of the numpy module can be found in the wedsite 'https://numba.pydata.org'.
+More detail about the numba can be found in the wedsite 'https://numba.pydata.org'.
 ## Getting-started
 
 The essential object in the fRG formalism is the FRG one-particle irreducible (1PI) vertex.
