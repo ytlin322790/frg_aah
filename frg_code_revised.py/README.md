@@ -48,7 +48,7 @@ More detail can be found in Ref.['https://journals.aps.org/prb/abstract/10.1103/
 To implement this functional RG code, you need Python version 3.8 or 3.7, numpy, scipy and numba installed on your device.
 For the density with functional RG density respond vertex flow in large system size, one need to implement the numerics in the cluster.
 
-To download numpy and scipy,
+To download numpy and scipy, you can do the following
 
 ```bash
 pip install numba
