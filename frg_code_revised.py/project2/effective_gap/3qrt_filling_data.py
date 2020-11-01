@@ -32,9 +32,6 @@ for ii in range(N_GAP):
         free_bulk_gap[i,ii,:]=sol_gap_free
         free_mu[i,ii]=mu_free
 
-
-
-
 for i in range(N_U):
     U=U_0*i
     
@@ -67,9 +64,6 @@ for i in range(N_U):
     print('frg mu:',mu_frg)
     print(i)
     print('===========')
-
-
-
 
 np.save('data/frg_gap_3qrt_dU=%g_U=%g.npy'%(DU_0,U_0),frg_bulk_gap)
 np.save('data/free_gap_3qrt_dU=%g_U=%g.npy'%(DU_0,U_0),free_bulk_gap)
