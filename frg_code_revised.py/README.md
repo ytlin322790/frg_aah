@@ -40,7 +40,7 @@ Due to the for loop structure in the solver, we also add the Numba JIT compiler 
 To implement this fRG code, one need to invert the tridigonal matrix in the right hand side of the RG equations. 
 The computation effort of inverting the generic matrix by standard methods is O(L^2).
 However, for the nearest neighbor hoppings and the interaction, only the tridigonal part of the single scale propagator is required.
-Therefore, by the "LDU factorization", the computation effort can be reduced into O(L). This is the advantage of the functional RG method over another numerical method, such as DMRG. 
+Therefore, by the "LDU factorization", the computation effort can be reduced in O(L). This is the advantage of the functional RG method over another numerical method, such as DMRG. 
 More detail can be found in Ref.['https://journals.aps.org/prb/abstract/10.1103/PhysRevB.70.075102'].
 
 ## Prerequisites
