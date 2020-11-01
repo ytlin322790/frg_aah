@@ -1,5 +1,5 @@
 from numpy import pi
-#%%
+
 # system size
 L=4000#1000
 N=L
@@ -12,33 +12,16 @@ V=0.015
 # hopping parameters
 DT=0.02
 
-
-
 # phase of modulation
-PHI_V=-0.45-pi/4.0#*np.pi
-PHI_T=-0.45-pi/4.0#*np.pi
+PHI_V=-0.45-pi/4.0
+PHI_T=-0.45-pi/4.0
 PHI_U=0.0
 
-
-
-DU=0.0#1
-U=0.08#0.075#125
-
-
-# scale of the mu
-
+DU=0.0
+U=0.08
 M =0.001
-
-
-
 NN=5
 NNN=41
-
-#P1=1.0
-#P2=5.0
-#P3=10.0
-#P4=50.0
-#P5=100.0
 
 P1=200.0
 P2=250.0
