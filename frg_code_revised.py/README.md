@@ -51,7 +51,7 @@ For the density with functional RG density respond vertex flow in large system s
 To download numpy and scipy, you can do the following:
 
 ```bash
-pip install numba
+pip install numpy
 pip install scipy
 ```
 
