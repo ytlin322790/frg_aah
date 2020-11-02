@@ -121,12 +121,12 @@ Z=4
 DT=V=0.05
 MU=0.03
 
-# First initialize the fRG module which can generate the fRG self-energy in real spcae 
+# First initialize the fRG module which can generate the fRG self-energy in real spcae. 
 
 p=FrgGreenData()
 p.frg_obc(n=N,z=Z,dt=DT,u=U,v=V,du=0.0,mu=MU)
 
-# Generate the data concerning the local density with the fRG self-energy
+# Generate the data concerning the local density with the fRG self-energy.
 
 p.local_density(n=N,z=Z,dt=DT,u=U,v=V,du=DU,mu=MU)
 rho=p.get_local_density()
@@ -144,7 +144,7 @@ from tool.vertex import FrgVertexData
 
 # Create a new instance of the functional RG self-energy + vertex respond vertex
 # Take AAH model for example. 
-# Target the first lattice site j=0
+# Target the first lattice site j=0.
 
 N=100
 Z=4
@@ -152,7 +152,7 @@ DT=V=0.05
 MU=0.0
 j=0
 
-# Initialize the fRG module which can generate the fRG density with vertex flow in real spcae 
+# Initialize the fRG module which can generate the fRG density with vertex flow in real spcae. 
 
 p=FrgVertexData()
 p.vertex_solver(site=j,n=N,z=Z,dt=DT,u=U,v=V,du=DU,mu=MU)
