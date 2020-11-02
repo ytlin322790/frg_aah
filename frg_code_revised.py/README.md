@@ -142,7 +142,7 @@ In order to ontain the more accurate and self-consistent result in functional RG
 import numpy as np
 from tool.vertex import FrgVertexData
 
-# Create a new instance of the functional RG self-energy + vertex respond vertex
+# Create a new instance of the functional RG self-energy + vertex respond vertex.
 # Take AAH model for example. 
 # Target the first lattice site j=0.
 
